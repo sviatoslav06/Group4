@@ -22,7 +22,14 @@ const Body = () => {
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Oleksandr Simonov</h2>
           <p style={styles.position}>Analyst</p>
-          </div>
+        </div>
+      </div>
+      <div style={styles.card}>
+        <img src={"/Samoliuk.JPG"} alt="Sviatoslav Samoliuk" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Sviatoslav Samoliuk</h2>
+          <p style={styles.position}>Tester</p>
+        </div>
       </div>
     </main>
   );
