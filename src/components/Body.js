@@ -4,10 +4,45 @@ const Body = () => {
   return (
     <main style={styles.body}>
       <div style={styles.card}>
+        <img src={"/Surname.png"} alt="Alina Naryzhna" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Alina Naryzhna</h2>
+          <p style={styles.position}>Full-Stack Web Developer</p>
+        </div>
+      </div>
+      <div style={styles.card}>
+        <img src={"/Riznyk.jpg"} alt="Rostyslav Riznyk" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Rostyslav Riznyk</h2>
+          <p style={styles.position}>UI/UX Designer</p>
+        </div>
+      </div>
+      <div style={styles.card}>
         <img src={"/avatar-default.png"} alt="Tanya Tverdun" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Tanya Tverdun</h2>
           <p style={styles.position}>Backend developer</p>
+        </div>
+      </div>
+      <div style={styles.card}>
+        <img src={"/avatar-default.png"} alt="Danylo Smutok" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Danylo Smutok</h2>
+          <p style={styles.position}>Product Owner</p>
+        </div>
+      </div>
+      <div style={styles.card}>
+        <img src={"/avatar-default.png"} alt="Oleksandr Simonov" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Oleksandr Simonov</h2>
+          <p style={styles.position}>Analyst</p>
+        </div>
+      </div>
+      <div style={styles.card}>
+        <img src={"/Samoliuk.JPG"} alt="Sviatoslav Samoliuk" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Sviatoslav Samoliuk</h2>
+          <p style={styles.position}>Tester</p>
         </div>
       </div>
     </main>
