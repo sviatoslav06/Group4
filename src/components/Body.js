@@ -11,10 +11,10 @@ const Body = () => {
         </div>
       </div>
       <div style={styles.card}>
-        <img src={"/Riznyk.jpg"} alt="Rostyslav Riznyk" style={styles.photo} />
+        <img src={"/Samoliuk.JPG"} alt="Sviatoslav Samoliuk" style={styles.photo} />
         <div style={styles.textContainer}>
-          <h2 style={styles.name}>Rostyslav Riznyk</h2>
-          <p style={styles.position}>UI/UX Designer</p>
+          <h2 style={styles.name}>Sviatoslav Samoliuk</h2>
+          <p style={styles.position}>Tester</p>
         </div>
       </div>
     </main>
