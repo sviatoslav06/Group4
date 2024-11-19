@@ -18,6 +18,13 @@ const Body = () => {
         </div>
       </div>
       <div style={styles.card}>
+        <img src={"/avatar-default.png"} alt="Tanya Tverdun" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Tanya Tverdun</h2>
+          <p style={styles.position}>Backend developer</p>
+        </div>
+      </div>
+      <div style={styles.card}>
         <img src={"/avatar-default.png"} alt="Danylo Smutok" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Danylo Smutok</h2>
