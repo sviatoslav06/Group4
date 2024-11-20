@@ -52,6 +52,13 @@ const Body = () => {
           <p style={styles.position}>Test</p>
         </div>
       </div>
+      <div style={styles.card}>
+        <img src={"/avatar-default.png"} alt="Test2" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Test2</h2>
+          <p style={styles.position}>Test2</p>
+        </div>
+      </div>
     </main>
   );
 };
